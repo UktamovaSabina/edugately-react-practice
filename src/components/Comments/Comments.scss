@@ -1,0 +1,66 @@
+.comments-section {
+    padding: 100px 0;
+    color: #2E2E2E;
+    line-height: 110%;
+    font-weight: 900;
+
+    h3 {
+        font-size: 40px;
+        line-height: 92.8%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            img {
+                max-width: 194px;
+                width: 100%;
+            }
+
+            .comments-info {
+                max-width: 419px;
+                width: 100%;
+
+                h4 {
+                    font-size: 20px;
+                    margin-bottom: 6px;
+                }
+
+                h5 {
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .pagination {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+
+    }
+}

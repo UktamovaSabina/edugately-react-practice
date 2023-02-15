@@ -1,0 +1,87 @@
+.contact-section {
+    padding: 100px 0;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 140px;
+
+        form {
+            max-width: 636px;
+            width: 100%;
+            padding: 38px 37px 58px 37px;
+            box-shadow: 0px 1px 28px rgba(82, 94, 99, 0.2);
+            border-radius: 20px;
+
+            h3 {
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 92.8%;
+                text-transform: uppercase;
+                color: #2E2E2E;
+                margin-bottom: 23px;
+            }
+
+            .inputs-wrapper {
+                display: flex;
+                gap: 24px;
+                margin-bottom: 35px;
+
+
+                .form-input {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    label {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 92.8%;
+                        color: #2E2E2E;
+                    }
+
+                    input {
+                        display: block;
+                        padding: 8px 80px 7px 22px;
+                        max-width: 269px;
+                        width: 100%;
+                        box-shadow: 0px 1px 28px rgba(0, 0, 0, 0.1);
+                        border-radius: 20px;
+                        border: transparent;
+                    }
+                }
+            }
+
+            .submit {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 5px;
+
+                button {
+                    max-width: 269px;
+                    width: 100%;
+                    padding: 7px 93px 8px 100px;
+                    background-color: #FF6060;
+                    box-shadow: 0px 1px 28px rgba(0, 0, 0, 0.1);
+                    border-radius: 20px;
+                    border: transparent;
+                    color: #FDFDFD;
+                }
+
+                img {
+                    max-width: 190px;
+                    width: 100%;
+                }
+            }
+        }
+
+        img {
+            max-width: 446px;
+            width: 100%;
+        }
+    }
+
+}

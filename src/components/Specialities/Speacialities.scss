@@ -1,0 +1,48 @@
+.specialities-section {
+    padding: 100px 0;
+
+    h3 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 92.8%;
+        text-align: center;
+        color: #2E2E2E;
+        margin-bottom: 55px;
+    }
+
+    .specialities-list {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+
+        li {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 53px 0 51px 0;
+            max-width: 306px;
+            width: 100%;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 110%;
+            text-transform: uppercase;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34);
+            background-image: linear-gradient(rgba(7, 7, 7, 0.71), rgba(4, 4, 4, 0.728)), url(../../assets/Images/Specialities/background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 100px;
+        }
+
+        li:nth-child(even) {
+            color: #FFDC60;
+        }
+
+        li:nth-child(odd) {
+            color: #FF6060;
+        }
+    }
+}

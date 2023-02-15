@@ -1,0 +1,82 @@
+.hero-section {
+    padding: 100px 0;
+
+    @media screen and (max-width:1235px) {
+        padding: 50px 0;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width:1235px) {
+            justify-content: center;
+        }
+
+        .hero__info {
+            max-width: 636px;
+            width: 100%;
+
+            h2 {
+                font-weight: 900;
+                font-size: 50px;
+                line-height: 92.8%;
+                text-transform: uppercase;
+                color: #2E2E2E;
+                margin-bottom: 51px;
+
+                span {
+                    color: #FFDC60;
+                }
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 110%;
+                color: #2E2E2E;
+                margin-bottom: 50px;
+            }
+
+            h4 {
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 110%;
+                text-transform: uppercase;
+                color: #2E2E2E;
+                margin-bottom: 14px;
+            }
+
+            .hero-links {
+                display: flex;
+                gap: 24px;
+                flex-wrap: wrap;
+
+                .hero-link {
+                    display: block;
+                    max-width: 306px;
+                    width: 100%;
+                    padding: 12px 0 13px 0;
+                    text-align: center;
+                    background-color: #FF6060;
+                    font-weight: 900;
+                    font-size: 14px;
+                    line-height: 18px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                }
+            }
+
+        }
+
+        img {
+            max-width: 559px;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}

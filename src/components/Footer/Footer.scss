@@ -1,0 +1,102 @@
+footer {
+    background-color: #222222;
+    color: #FFF;
+    padding: 70px 0 90px 0;
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .footer-contacts {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 10px;
+
+            .footer-contacts__item {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                .footer-contacts__image {
+                    width: 64px;
+                    height: 64px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #FFDC60;
+                    border-radius: 50%;
+                }
+
+                .footer-contacts__info {
+                    h3 {
+                        margin-bottom: 11px;
+                        font-weight: 900;
+                        font-size: 20px;
+                        line-height: 110%;
+                        text-transform: uppercase;
+                    }
+
+                    a {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 110%;
+                        color: #FFF;
+                    }
+                }
+                
+            }
+
+            .footer-contacts__item:hover {
+                opacity: 90%;
+            }
+        }
+    
+        .social-media {
+            h3 {
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 110%;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                li:hover .instagram path{
+                    fill: greenyellow;
+                }
+                li:hover .telegram path{
+                    fill: greenyellow;
+                }
+                li:hover .facebook path{
+                    fill: greenyellow;
+                }
+                li:hover .youtube path{
+                    fill: greenyellow;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.footer-contacts__item:hover .phone-svg path {
+    stroke: darkblue;
+}
+
+.footer-contacts__item:hover .location-svg path {
+    fill: darkblue;
+}
+
+.footer-contacts__item:hover .email-svg path {
+    stroke: darkblue;
+    fill: darkblue;
+}

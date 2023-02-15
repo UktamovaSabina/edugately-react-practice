@@ -1,0 +1,150 @@
+.universities-section {
+    padding: 100px 0;
+
+    h3 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 92.8%;
+        text-transform: uppercase;
+        color: #2E2E2E;
+        margin-bottom: 55px;
+    }
+}
+
+//Faculties part
+.univer-choice {
+
+    li {
+        padding: 14px 0 17px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-bottom: 2px solid #E3E3E3;
+
+        .univer-title {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            img {
+                max-width: 86px;
+                width: 100%;
+            }
+
+            h4 {
+                max-width: 416px;
+                width: 100%;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 110%;
+                text-decoration-line: underline;
+                color: #2E2E2E;
+            }
+        }
+
+        .univer-settings {
+            display: flex;
+            align-items: center;
+            gap: 76px;
+
+            select {
+                border: transparent;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 110%;
+                color: #FF6060;
+            }
+
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 110%;
+                color: #2E2E2E;
+            }
+        }
+    }
+}
+
+//Bachelor part
+.bachelors {
+    padding: 23px 0;
+    margin-left: 110px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #FF6060;
+
+    .bachelors-info {
+        max-width: 300px;
+        width: 100%;
+
+        h4 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 110%;
+            color: #FF6060;
+            margin-bottom: 3px;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 110%;
+            color: #989898;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 110%;
+            color: #2E2E2E;
+        }
+    }
+
+    .price {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2E2E2E;
+
+        span {
+            font-size: 22px;
+        }
+    }
+
+}
+
+.pagination {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 92.8%;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    color: #2E2E2E;
+
+    span {
+        text-decoration-line: underline;
+        text-transform: uppercase;
+    }
+
+    ul {
+        display: flex;
+        gap: 15px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+
+        li:first-child {
+            color: #FF6060;
+            text-decoration-line: underline;
+        }
+    }
+}

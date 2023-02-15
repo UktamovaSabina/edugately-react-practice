@@ -1,0 +1,64 @@
+header {
+    padding: 62px 80px 67px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.navbar-item {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #919191;
+}
+
+.navbar-item:hover {
+    color: rgba(26, 24, 24, 0.724);
+}
+
+.active-navbar-item {
+    color: #000000;
+}
+
+.header-contact-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-lang {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2E2E2E;
+}
+
+.search-input {
+    max-width: 306px;
+    width: 100%;
+    padding: 7px 0 6px 20px;
+    background-color: #FF6060;
+    color: #FFF;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: transparent;
+        &::placeholder{
+            color: #FFF;
+    }
+}

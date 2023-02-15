@@ -1,0 +1,17 @@
+@import './reset';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}

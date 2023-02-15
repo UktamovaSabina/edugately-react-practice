@@ -1,0 +1,104 @@
+.about-section {
+    padding: 100px 0;
+
+    .about-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        img {
+            max-width: 746px;
+            width: 100%;
+        }
+
+        .about-info {
+
+            h3 {
+                text-align: center;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 92.8%;
+                text-transform: uppercase;
+                color: #2E2E2E;
+                margin-bottom: 62px;
+            }
+
+            ul {
+                max-width: 526px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                margin-bottom: 43px;
+
+                li {
+                    display: flex;
+                    gap: 26px;
+
+                    .datas {
+                        h4 {
+                            font-weight: 900;
+                            font-size: 20px;
+                            line-height: 110%;
+                            text-align: right;
+                            text-transform: uppercase;
+                            color: #FF6060;
+                            margin-bottom: 4px;
+                        }
+
+                        p {
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 110%;
+                            text-align: right;
+                            color: #2E2E2E;
+                        }
+
+                    }
+
+                    .statistics {
+                        padding: 11px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-top-left-radius: 85px;
+                        border-bottom-left-radius: 85px;
+                        background-color: #FF6060;
+
+                        span {
+                            width: 64px;
+                            height: 64px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #FFDC60;
+                            color: #FF6060;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+
+            button {
+                margin-left: auto;
+                display: block;
+                max-width: 306px;
+                width: 100%;
+                text-align: center;
+                padding: 12px 0 13px 0;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                background-color: #FF6060;
+                border: transparent;
+                border-bottom-left-radius: 100px;
+                border-top-left-radius: 100px;
+            }
+        }
+    }
+}

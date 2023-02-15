@@ -1,0 +1,85 @@
+.guide-section {
+    padding: 100px 0;
+
+    h2 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 92.8%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2E2E2E;
+        margin-bottom: 55px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+
+        .odd-steps {
+            max-width: 148px;
+            width: 100%;
+
+            .image-wrapper__top {
+                padding: 32px 0;
+                text-align: center;
+                background-color: #FF6060;
+                border-top-left-radius: 50%;
+                border-top-right-radius: 50%;
+            }
+
+            .step {
+                text-align: center;
+                padding-top: 9px;
+
+                h4 {
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 110%;
+                    color: #FF6060;
+                }
+
+                h3 {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 110%;
+                    color: #2E2E2E;
+                }
+            }
+        }
+
+        .even-steps {
+            max-width: 148px;
+            width: 100%;
+
+            .step {
+                text-align: center;
+                margin-top: 60px;
+
+                h4 {
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 110%;
+                    color: #FFDC60;
+                }
+
+                h3 {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 110%;
+                    color: #2E2E2E;
+                    margin-bottom: 8px;
+                }
+            }
+
+            .image-wrapper__bottom {
+                padding: 32px 0;
+                text-align: center;
+                background-color: #FFDC60;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+            }
+        }
+    }
+}
